@@ -1,0 +1,209 @@
+/***********Navbar*********/
+.nav-link{
+    font-size: 1rem;
+}
+
+/***********End Navbar*********/
+
+/***************Login*************/
+/*Login Container*/
+.login-container{
+    display: flex;
+    height: 100vh;
+}
+
+.login-container > div{
+    width: 50%;
+}
+
+/*Login Content*/
+
+.login-content h1{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+}
+
+.login-content {
+    z-index: 2;
+}
+
+/*Login Banner*/
+
+.login-banner{
+    position: relative;
+}
+
+.login-banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.login-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Login Form*/
+.login-form{
+    padding: 50px;
+}
+
+.login-form h2{
+    margin-bottom: 50px;
+}
+
+.login-form h2, .login-form h2 i{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.login-form label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.login-form form div{
+    margin-bottom: 40px;
+}
+
+.login-form a{
+    font-size: 1.2rem;
+}
+/***************End Login*************/
+
+/*********Registration********/
+
+.regis-container{
+    height: auto;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+/**********End Registration********/
+
+/*************Product List***********/
+
+.product-item{
+    max-width: 24%;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-item > *{
+    padding: 20px;
+}
+
+.product-item img{
+    width: 100%;
+    height: 300px;
+}
+
+.product-item figcaption{
+    border-top: 1px solid rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-item figcaption > *{
+    margin-bottom: 20px;
+}
+
+.product-item figcaption a{
+    margin-bottom: 0;
+}
+
+/*************End Product List***********/
+
+/*************Product Detail***********/
+
+.product-detail-content>*{
+    margin-bottom: 20px;
+}
+
+.product-detail-content ul li{
+    margin-bottom: 20px;
+}
+
+.product-detail-content p{
+    font-size: 1.2rem;
+}
+
+/*************End Product Detail***********/
+
+/*************Order Item***********/
+
+.order-item .card-title, .order-item .card-text{
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 20px 0px;
+}
+
+.order-item a{
+    margin-top: 20px;
+}
+
+/*************End Order Item***********/
+
+/***********Add Order*********/
+
+.new-order-form-title, .new-order-form-title i,
+.report-gen h1 i, .report-gen h1,
+.change-info h1, .change-info h1 i{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.customer-list, .product-list {
+    display: none !important;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.display-block{
+    display: flex !important;
+}
+
+.appear{
+    opacity: 1;
+}
+/***********End Add Order*********/
+
+/*************Change Password Form********/
+
+.change-password-form h2, .change-password-form h2 i{
+    font-size: 3rem;
+    text-align: center;
+}
+
+/**********End Change Password Form******/
+ 
+/*******Order List*********/
+
+.pagination-container{
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.pagination-container ul li a{
+    font-size: 1rem;
+}
+
+.order-item{
+    margin-bottom: 20px;
+}
+
+/*******End Order List*********/
+
+
+
